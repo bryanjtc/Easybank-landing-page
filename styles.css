@@ -4,14 +4,17 @@
 /*-- variables --*/
 :root {
 --space: 150px;
+--padding:20px;
 --color-title:hsl(233, 26%, 24%);
 --color-parraf:hsl(233, 8%, 62%);
 }
 
 
 /*-- Styles --*/
-body{
+html{
 font-family: 'Public Sans', sans-serif;
+}
+body{
 font-size: 18px;
 }
 
@@ -29,18 +32,56 @@ display: flex;
 }
 
 nav li{
-padding-right: 20px;
+padding-right: var(--padding);
 list-style: none;
 }
 
 .main_section{
 padding: var(--space);
-max-width: 30%;
+background-color: hsl(0, 0%, 98%);
 }
 
-.body_section {
-max-width: 30%;
+.middle_section {
 padding: var(--space);
+}
+
+.last_section{
+padding: var(--space);
+}
+
+.content{
+text-align: left;
+display: flex;
+}
+
+.articles{
+display: flex;
+}
+
+.article_1{
+width: 25%;
+height: auto;
+padding-right: var(--padding);
+}
+.article_2{
+width: 25%;
+height: auto;
+padding-right: var(--padding);   
+}
+.article_3{
+width: 25%;
+height: auto;
+padding-right: var(--padding);   
+}
+.article_4{
+width: 25%;
+height: auto;
+}
+
+.img{
+max-width: 100%;
+height: 250px;
+object-fit: cover;
 }
 
 h1{
@@ -49,6 +90,15 @@ color: var(--color-title);
 
 p{
 color:var(--color-parraf);
+padding-right: var(--padding);
 }
 
-
+.button{
+background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+padding:10px var(--padding) 10px var(--padding);
+text-decoration: none;
+color:hsl(0, 0%, 98%);
+border: none;
+border-radius: var(--padding);
+font-weight: bold;
+}
