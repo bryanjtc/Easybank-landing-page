@@ -1,0 +1,50 @@
+/* 3 columnas, 2filas*/ 
+
+.container{
+}
+
+.row {
+    display: flex;
+}
+
+.col_1{
+    width: 750px;
+    padding-top: 150px;
+}
+.col_2{
+    width: 500px;
+    height: 500px;
+}
+.col_3{
+    width: 25%;
+    height: 159px;
+}
+
+.intro_desktop{
+    object-fit: cover;
+   /* width: 900px;
+    height: 700px;
+    object-position: 50%;*/
+    z-index: 1;
+    width: 152%;
+    position: relative;
+    left: -11%;
+    top: -6%;
+}
+.intro_mockup{
+    object-fit: cover;
+    z-index: 2;
+    /*width: 700px;*/
+    position: relative;
+    bottom: 152%;
+    left: 8%;
+  
+}
+
+.navbar{
+    z-index: 1033;
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-height: 100%;
+}

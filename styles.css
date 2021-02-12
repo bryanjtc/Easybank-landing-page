@@ -14,6 +14,7 @@ html {
 }
 body {
   font-size: 18px;
+  margin: 0px;
 }
 
 nav {
@@ -34,8 +35,9 @@ nav li {
   list-style: none;
 }
 
-.main_section {
-  padding: var(--space);
+.container {
+  padding-left: var(--space);
+  /*padding-right: var(--space);*/
   background-color: hsl(0, 0%, 98%);
 }
 
@@ -76,10 +78,34 @@ nav li {
   height: auto;
 }
 
+.footer{
+  background:hsl(233, 26%, 24%);
+  padding:  var(--padding) var(--space)  var(--padding) var(--space);
+}
+.footer_options li{
+  list-style: none;
+  padding-bottom: 10px;
+  color: hsl(0, 0%, 98%);
+}
+
+.social_medias ul{
+  display: flex;
+  padding: 0px;
+}
+
+.social_medias li{
+  padding-right: 10px;
+  list-style: none;
+}
+
 .img {
   max-width: 100%;
   height: 250px;
   object-fit: cover;
+}
+.logo_white{
+  padding-top: var(--padding);
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -99,4 +125,8 @@ p {
   border: none;
   border-radius: var(--padding);
   font-weight: bold;
+}
+.footer_button{
+  padding-top: var(--padding);
+  text-align: right;
 }
