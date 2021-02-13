@@ -1,0 +1,113 @@
+@media (max-width: 900px) {
+  :root {
+  }
+
+  html {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    padding: 0px;
+  }
+
+  .content,
+  .articles {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content section {
+    padding-top: 20px;
+  }
+  .article_1,
+  .article_2,
+  .article_3,
+  .article_4 {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .middle_section,
+  .last_section {
+    padding-top: 20px;
+  }
+
+  .container {
+    padding: 0px;
+  }
+  .container .row {
+    display: inherit;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .footer .row {
+    display: inherit;
+    justify-content: center;
+  }
+
+  nav {
+    padding: 20px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu a {
+  }
+  label {
+    display: inherit;
+  }
+  .navbar .button {
+    display: none;
+  }
+  .col_1 {
+    width: inherit;
+    text-align: center;
+  }
+  .col_2 {
+    padding-top: 100px;
+  }
+  .col_1,
+  .col_2 {
+    padding: 0px;
+    align-self: center;
+  }
+  .col_3 {
+    width: inherit;
+    height: inherit;
+  }
+
+  .intro_mockup {
+    left: inherit;
+    width: 100%;
+    bottom: 100%;
+  }
+  .intro_desktop {
+    width: 100%;
+    top: 10%;
+  }
+  .logo_white {
+    padding-bottom: 20px;
+  }
+  .footer,
+  .footer_button {
+    padding: 0px;
+    text-align: center;
+  }
+  .social_medias {
+    display: inherit;
+  }
+
+  h1,
+  h3,
+  p,
+  ul {
+    text-align: center;
+    padding: 0px;
+  }
+}
