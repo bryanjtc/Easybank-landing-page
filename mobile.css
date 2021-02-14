@@ -28,7 +28,7 @@
 
   .middle_section,
   .last_section {
-    padding-top: 20px;
+    padding:100px 20px 100px 0px ;
   }
 
   .container {
@@ -77,7 +77,7 @@
     padding: 0px;
     align-self: center;
   }
-  .col_3 {
+  .col_footer {
     width: inherit;
     height: inherit;
   }
