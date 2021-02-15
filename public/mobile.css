@@ -115,7 +115,7 @@
     height: 500px;
     position: sticky;
     width: 100%;
-    object-position: -50% 0%;
+    object-position: 25vw 0vh;
     object-fit:cover;
   }
 
