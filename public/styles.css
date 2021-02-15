@@ -81,6 +81,9 @@ label {
 .content {
   text-align: left;
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 50px;
 }
 
 .articles {
@@ -99,7 +102,7 @@ label {
 .article {
   width: 100%;
   height: auto;
-  background-color:rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
 }
 
 .footer {
@@ -183,8 +186,6 @@ section a {
   padding-top: var(--padding);
   text-align: right;
 }
-
-
 
 section a:hover {
   color: hsl(136, 65%, 51%);
