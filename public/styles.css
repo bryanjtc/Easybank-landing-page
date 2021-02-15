@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 /*-- variables --*/
 :root {
@@ -13,6 +13,7 @@
 html {
   font-family: "Public Sans", sans-serif;
 }
+
 body {
   font-size: 18px;
   margin: 0px;
@@ -24,6 +25,8 @@ nav {
   align-items: center;
   padding-left: var(--space);
   padding-right: var(--space);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -33,30 +36,37 @@ nav {
   width: var(--hundred-percent);
   max-height: (var(--hundred-percent));
 }
+
 .menu a {
   text-decoration: none;
-  color: var(--color-parraf) ;
+  color: var(--color-parraf);
   margin: 0 10px;
 }
 
 #toggle {
   display: none;
 }
+
 label {
   display: none;
 }
 
 .container {
   padding-left: var(--space);
-  background-color: hsl(0, 0%, 98%);
+  background-color: rgb(250, 250, 250);
 }
 
 .middle_section,
 .last_section {
-  padding: var(--space);
+  padding: 75px var(--space);
 }
+
+.middle_section {
+  background-color: rgb(244, 245, 247);
+}
+
 .last_section {
-  background-color: hsl(0, 0%, 98%);
+  background-color: rgb(250, 250, 250);
 }
 
 .content {
@@ -66,25 +76,20 @@ label {
 
 .articles {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-.article_1 {
-  width: 25%;
-  height: auto;
-  padding-right: var(--padding);
+.articles h6,
+.articles h3,
+.articles p {
+  padding: 0 35px 0px 35px;
 }
-.article_2 {
-  width: 25%;
-  height: auto;
-  padding-right: var(--padding);
-}
-.article_3 {
-  width: 25%;
-  height: auto;
-  padding-right: var(--padding);
-}
-.article_4 {
-  width: 25%;
+
+.article {
+  width: 100%;
   height: auto;
 }
 
@@ -103,6 +108,7 @@ label {
 .social_medias {
   display: flex;
 }
+
 .img_medias {
   padding-right: 10px;
 }
@@ -116,23 +122,28 @@ label {
   max-width: var(--hundred-percent);
   height: 250px;
   object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 
 .intro_desktop {
   object-fit: cover;
   z-index: 1;
-  width: 152%;
-  position: relative;
+  width: 100%;
+  position: sticky;
   left: -11%;
-  top: -6%;
+  height: 750px;
+  object-position: 15vw 0%;
 }
 
 .intro_mockup {
-  object-fit: cover;
+  object-fit: contain;
   z-index: 2;
   position: relative;
-  bottom: 152%;
-  left: 8%;
+  bottom: 170%;
+  height: 750px;
+  width: 100%;
+  left: 35%;
+  object-position: 0 100%;
 }
 
 .logo_white {
@@ -146,7 +157,6 @@ h1 {
 
 p {
   color: var(--color-parraf);
-  padding-right: var(--padding);
 }
 section a {
   text-decoration: none;
@@ -155,17 +165,19 @@ section a {
 
 .button {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  padding: 10px var(--padding) 10px var(--padding);
+  padding: 12.5px 30px 12.5px 30px;
   text-decoration: none;
   color: hsl(0, 0%, 98%);
   border: none;
-  border-radius: var(--padding);
+  border-radius: 25px;
   font-weight: bold;
 }
 .footer_button {
   padding-top: var(--padding);
   text-align: right;
 }
+
+
 
 section a:hover {
   color: hsl(136, 65%, 51%);
@@ -174,6 +186,7 @@ section a:hover {
 .social_medias a:hover {
   opacity: 0.3;
 }
+
 .articles a:hover {
   opacity: 0.3;
 }
@@ -181,7 +194,7 @@ section a:hover {
 .content a:hover {
   opacity: 0.3;
 }
+
 .footer_options a:hover {
   color: hsl(192, 70%, 51%);
 }
-
