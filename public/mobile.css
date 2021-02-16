@@ -45,11 +45,11 @@
     text-align: center;
   }
 
-  .container {
+  .header {
     padding: 0px;
   }
 
-  .container .row {
+  .header .row {
     display: inherit;
     display: -webkit-box;
     display: -webkit-flex;
@@ -66,18 +66,7 @@
     justify-content: center;
   }
 
-  nav {
-    padding: 20px;
-    display: none;
-  }
-
-  .navbar {
-    background-color: transparent;
-  }
-
-  .menu {
-    display: none;
-  }
+  
 
   label {
     display: inherit;

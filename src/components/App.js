@@ -1,8 +1,8 @@
 import React from "react";
 
-import MobileNavBar from "./MobileNavBar";
+import Landing from "../pages/Landing.js";
 function App() {
-  return <MobileNavBar></MobileNavBar>;
+  return <Landing/>;
 }
 
 export default App;

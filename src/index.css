@@ -12,9 +12,6 @@ code {
     monospace;
 }
 
-#root {
-  display: none;
-}
 
 @media (max-width: 900px) {
   #root {

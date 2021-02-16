@@ -12,7 +12,6 @@ class MobileNavBar extends React.Component {
   render() {
     if (this.state.opened) {
       return (
-        <div>
           <div className="mobile-container">
             <div className="topnav">
               <img src={Logo} alt="logo" class="logo" />
@@ -32,7 +31,7 @@ class MobileNavBar extends React.Component {
               <a href="#careers">Careers</a>
             </div>
           </div>
-        </div>
+
       );
     }
 

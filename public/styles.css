@@ -19,48 +19,42 @@ body {
   margin: 0px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: var(--space);
-  padding-right: var(--space);
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
-.navbar {
-  z-index: 1033;
-  position: fixed;
-  background: white;
-  width: var(--hundred-percent);
-  max-height: (var(--hundred-percent));
-}
 
-.easypageimages {
-  padding-top: 7.5px;
-}
-
-.menu {
-  display: flex;
-  gap: 20px;
-  margin: 0px 20px;
-}
-
-.menu a {
+<!--header-->
+.button {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 12.5px 30px 12.5px 30px;
   text-decoration: none;
-  color: var(--color-parraf);
-}
-
-#toggle {
-  display: none;
+  color: hsl(0, 0%, 98%);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
 label {
   display: none;
 }
 
-.container {
+.row {
+  display: flex;
+}
+
+.col_1 {
+  width: 40vw;
+  padding-top: 150px;
+}
+.col_2 {
+  width: 60vw;
+  height: 500px;
+}
+.col_footer {
+  width: 25%;
+  height: 159px;
+}
+
+
+.header {
   padding-left: var(--space);
   background-color: rgb(250, 250, 250);
 }
@@ -149,11 +143,11 @@ label {
 .intro_mockup {
   object-fit: contain;
   z-index: 2;
-  position: relative;
+  position: sticky;
   bottom: 170%;
   height: 750px;
   width: 100%;
-  object-position: 17.5vw 0vh;
+  object-position: 17.5vw -15vh;
 }
 
 .logo_white {
@@ -173,15 +167,7 @@ section a {
   color: black;
 }
 
-.button {
-  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  padding: 12.5px 30px 12.5px 30px;
-  text-decoration: none;
-  color: hsl(0, 0%, 98%);
-  border: none;
-  border-radius: 25px;
-  font-weight: bold;
-}
+
 .footer_button {
   padding-top: var(--padding);
   text-align: right;

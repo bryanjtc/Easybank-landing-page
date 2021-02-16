@@ -30,44 +30,22 @@
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
   <body>
-    <!--opciones del nav-->
-    <div class="navbar">
-      <!--Creado por react-->
-      <noscript>You need to enable JavaScript to run this app.</noscript>
-      <div id="root"></div>
-      <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!--Creado por react-->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-      <!--Estructura original del old-page-->
-      <nav>
-        <div class="easypageimages">
-          <img src="%PUBLIC_URL%/logo.svg" alt="Logo" />
-        </div>
-        <label for="toggle"
-          ><img src="%PUBLIC_URL%/icon-hamburger.svg" alt="Hamburger Menu"
-        /></label>
-        <input type="checkbox" id="toggle" />
-
-        <div class="menu">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Carrers</a>
-        </div>
-
-        <input type="button" class="button" value="Request Invite" />
-      </nav>
-    </div>
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
+  -->
+    
     <!--Presentacion principal-->
-    <div class="container">
+    <section class="header">
       <div class="row">
         <div class="col_1">
           <h1>Next generation digital banking</h1>
@@ -91,10 +69,10 @@
           />
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Middle Section-->
-    <div class="middle_section">
+    <section class="middle_section">
       <h1>Why choose Easybank?</h1>
       <p>
         We leverage Open Banking to turn your bank account into your financial
@@ -142,10 +120,10 @@
           </p>
         </section>
       </div>
-    </div>
+    </section>
 
     <!--Last Section-->
-    <div class="last_section">
+    <section class="last_section">
       <h1>Lastest Articles</h1>
       <!--Ultimos Artitulos-->
       <div class="articles">
@@ -207,10 +185,10 @@
           </p>
         </section>
       </div>
-    </div>
+    </section>
 
     <!--Footer-->
-    <div class="footer">
+    <section class="footer">
       <div class="row">
         <div class="col_footer">
           <img
@@ -278,6 +256,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

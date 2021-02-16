@@ -8,6 +8,7 @@ body {
   min-width: 375px;
   margin: auto;
   height: auto;
+  display:none;
 }
 
 .topnav {
@@ -59,4 +60,10 @@ box-shadow: 0px 22.5px 22.5px 22.5px rgba(0,0,0,0.3);
   background-color: white;
   color: black;
   padding: 14px 16px;
+}
+
+@media only screen and (max-width: 900px){
+  .mobile-container {
+    display:initial;
+  }
 }
