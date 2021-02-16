@@ -57,11 +57,17 @@ label {
 .header {
   padding-left: var(--space);
   background-color: rgb(250, 250, 250);
+  box-sizing: border-box;
 }
 
 .middle_section,
 .last_section {
   padding: 75px var(--space);
+  box-sizing: border-box;
+}
+
+section{
+  width:100%;
 }
 
 .middle_section {
@@ -101,7 +107,8 @@ label {
 
 .footer {
   background: hsl(233, 26%, 24%);
-  padding: var(--padding) var(--space) var(--padding) var(--space);
+  padding: 35px var(--space) var(--padding) var(--space);
+  box-sizing: border-box;
 }
 .footer_options a {
   list-style: none;
@@ -113,11 +120,10 @@ label {
 
 .social_medias {
   display: flex;
+  justify-content: left;
+    gap: 12.5px;
 }
 
-.img_medias {
-  padding-right: 10px;
-}
 
 .social_medias li {
   padding-right: 10px;
@@ -151,7 +157,7 @@ label {
 }
 
 .logo_white {
-  padding-top: var(--padding);
+  padding-top: 12px;
   padding-bottom: 50px;
 }
 
@@ -169,7 +175,7 @@ section a {
 
 
 .footer_button {
-  padding-top: var(--padding);
+  padding-top: 12px;
   text-align: right;
 }
 
@@ -191,4 +197,9 @@ section a:hover {
 
 .footer_options a:hover {
   color: hsl(192, 70%, 51%);
+}
+
+.footer_options ul{
+  padding-left: 0;
+  margin:0;
 }
