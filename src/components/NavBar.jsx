@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/NavBar.css";
-import MobileNavBar from "./MobileNavBar";
+import MobileNavBar from "./MobileNavBar.jsx";
 import Logo from "../images/logo.svg";
 import IconHamburger from "../images/icon-hamburger.svg";
 class NavBar extends React.Component {
@@ -19,11 +19,11 @@ class NavBar extends React.Component {
                 <input type="checkbox" id="toggle" />
         
                 <div class="menu">
-                  <a href="#">Home</a>
-                  <a href="#">About</a>
-                  <a href="#">Contact</a>
-                  <a href="#">Blog</a>
-                  <a href="#">Carrers</a>
+                  <a href="/">Home</a>
+                  <a href="/">About</a>
+                  <a href="/">Contact</a>
+                  <a href="/">Blog</a>
+                  <a href="/">Carrers</a>
                 </div>
         
                 <input type="button" class="button" value="Request Invite" />
