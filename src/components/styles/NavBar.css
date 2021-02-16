@@ -1,68 +1,87 @@
-<!--navbar-- > .navbar {
-  z-index: 1033;
-  position: fixed;
-  background: white;
-  width: var(--hundred-percent);
-  max-height: (var(--hundred-percent));
+.navbar_container {
+  position: absolute;
+  z-index: 3;
+  background: var(--White);
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: var(--space);
-  padding-right: var(--space);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  box-sizing: border-box;
+  padding: 20px var(--space);
 }
 
-.easypageimages {
-  padding-top: 7.5px;
+.navbar_logo_container {
+  display: flex;
 }
 
-#toggle {
+.navbar_logo {
+  object-fit: contain;
+}
+
+.navbar_icon {
   display: none;
 }
 
-.menu {
+.navbar_menu {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   margin: 0px 20px;
 }
 
-.menu a {
+.navbar_menu a {
   text-decoration: none;
   color: var(--color-parraf);
 }
 
-.button {
-  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  padding: 12.5px 30px 12.5px 30px;
-  text-decoration: none;
-  color: hsl(0, 0%, 98%);
-  border: none;
-  border-radius: 25px;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 900px) {
-  .navbar {
+  .navbar_container {
     background-color: transparent;
   }
 
-  nav {
-    padding: 20px;
+  .navbar {
+    padding: 0 25px;
+    flex-direction: column;
+  }
+
+  .navbar_logo_container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: var(--White);
+  }
+
+  .navbar_icon {
+    display: initial;
+  }
+
+  .navbar_menu_container {
     display: none;
   }
 
-  .menu {
-    display: none;
+  .navbar_menu {
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--White);
+    padding: 15px 0px;
+    -webkit-box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
   }
 
-  .button {
-    padding: 15px 40px 15px 40px;
-    font-size: large;
-    margin-top: 20px;
+  .navbar_menu > a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .navbar_invite_button {
+    display: none;
   }
 }

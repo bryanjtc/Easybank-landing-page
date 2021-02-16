@@ -1,0 +1,9 @@
+.invite_button {
+    background: linear-gradient(to right, var(--Lime_Green), var(--Bright_Cyan));
+    padding: 12.5px 30px 12.5px 30px;
+    text-decoration: none;
+    color: var(--Very_Light_Gray);
+    border: none;
+    border-radius: 25px;
+    font-weight: var(--Bold) ;
+  }

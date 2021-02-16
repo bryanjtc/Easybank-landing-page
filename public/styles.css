@@ -15,14 +15,13 @@ html {
 }
 
 body {
-  font-size: 18px;
   margin: 0px;
 }
 
 
 
 <!--header-->
-.button {
+.invite_button {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   padding: 12.5px 30px 12.5px 30px;
   text-decoration: none;

@@ -1,8 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --Dark_Blue: hsl(233, 26%, 24%);
+  --Lime_Green: hsl(136, 65%, 51%);
+  --Bright_Cyan: hsl(192, 70%, 51%);
+  --Grayish_Blue: hsl(233, 8%, 62%);
+  --Light_Grayish_Blue: hsl(220, 16%, 96%);
+  --Very_Light_Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Light: 300;
+  --Regular: 400;
+  --Bold: 700;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Public Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,11 +23,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-
-@media (max-width: 900px) {
-  #root {
-    display: initial;
-  }
 }
