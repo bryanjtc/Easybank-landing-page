@@ -1,8 +1,8 @@
 import React from "react";
 
-import Landing from "../pages/Landing.jsx";
+import HomePage from "./pages/homepage.jsx";
 function App() {
-  return <Landing/>;
+  return <HomePage/>;
 }
 
 export default App;

@@ -8,10 +8,15 @@
     padding: 0px;
   }
 
-  .button {
-    padding: 15px 40px 15px 40px;
-    font-size: large;
-    margin-top: 20px;
+  label {
+    display: inherit;
+  }
+
+  h1,
+  h3,
+  p,
+  ul {
+    padding: 0px;
   }
 
   .content {
@@ -38,78 +43,20 @@
   .middle_section,
   .last_section {
     padding: 50px 25px 50px 25px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .middle_section {
     text-align: center;
   }
 
-  .header {
-    padding: 0px;
-  }
-
-  .header .row {
-    display: inherit;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-  }
-
   .footer .row {
-    display: inherit;
-    justify-content: center;
-  }
-
-  
-
-  label {
-    display: inherit;
-  }
-
-  .col_1 {
-    padding: 0 25px 0 25px;
-    width: inherit;
-    text-align: center;
-  }
-
-  .col_2 {
-    padding: 0;
-  }
-
-  .col_1,
-  .col_2 {
-    align-self: center;
-    width: auto;
+    flex-direction: column;
   }
 
   .col_footer {
     width: inherit;
     height: inherit;
-  }
-
-  .intro_mockup {
-    width: 100%;
-    object-position: 50% 100%;
-    height: 500px;
-    position: sticky;
-  }
-
-  .intro_desktop {
-    height: 500px;
-    position: sticky;
-    width: 100%;
-    object-position: 25vw 0vh;
-    object-fit:cover;
-  }
-
-  .logo_white {
-    padding: 45px 0;
   }
 
   .img {
@@ -119,9 +66,15 @@
   }
 
   .footer,
-  .footer_button {
+  .col_footer_last {
     padding: 0px;
     text-align: center;
+    height:100%
+  }
+
+  .col_footer_last {
+    padding-top: 12px;
+    align-items: center;
   }
 
   .social_medias {
@@ -130,19 +83,27 @@
     gap: 25px;
   }
 
-  h1,
-  h3,
-  p,
-  ul {
-    padding: 0px;
+  .footer_options a {
+    padding: 10px 0;
+    margin:0px;
+  }
+  
+  .col_footer_last p {
+    margin: 0;
+    padding: 35px 0;
+  }
+  
+  .col_footer_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+    margin-bottom: -3vh;
+    margin-right:0px;
+    margin-top:0px;
+    padding-top:5px;
   }
 }
 
-.footer_options a{
-  padding:10px 0;
-}
 
-.footer_button p{
-  margin:0;
-  padding:35px 0;
-}

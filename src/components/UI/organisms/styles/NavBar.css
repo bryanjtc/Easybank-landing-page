@@ -1,5 +1,4 @@
 .navbar_container {
-  position: absolute;
   z-index: 3;
   background: var(--White);
 }
@@ -15,10 +14,6 @@
   display: flex;
 }
 
-.navbar_logo {
-  object-fit: contain;
-}
-
 .navbar_icon {
   display: none;
 }
@@ -29,14 +24,11 @@
   margin: 0px 20px;
 }
 
-.navbar_menu a {
-  text-decoration: none;
-  color: var(--color-parraf);
-}
 
 @media only screen and (max-width: 900px) {
   .navbar_container {
     background-color: transparent;
+    position: absolute;
   }
 
   .navbar {
@@ -66,19 +58,11 @@
     border-radius: 10px;
     width: 100%;
     background-color: var(--White);
-    padding: 15px 0px;
-    -webkit-box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 22.5px 22.5px 22.5px rgba(0, 0, 0, 0.3);
-  }
-
-  .navbar_menu > a {
-    display: block;
-    text-align: center;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 400;
+    padding: 25px 0px;
+    box-shadow: 0px 22.5px 22.5px 22.5px rgb(0 0 0 / 30%);
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
   }
 
   .navbar_invite_button {
