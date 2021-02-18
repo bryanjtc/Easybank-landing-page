@@ -1,5 +1,5 @@
 import React from "react";
-import DefaultLayout from "../templates/DefaultLayout.jsx";
+import DefaultLayout from "../templates/defaultLayout.jsx";
 
 class Homepage extends React.Component {
   render() {

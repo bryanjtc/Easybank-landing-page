@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../UI/organisms/NavBar.jsx";
-import Hero from "../UI/organisms/Hero.jsx";
-import MiddleSection from "../UI/organisms/MiddleSection.jsx";
+import NavBar from "../../components/organisms/NavBar.jsx.js";
+import Hero from "../../components/organisms/Hero.jsx.js";
+import MiddleSection from "../../components/organisms/MiddleSection.jsx";
 function DefaultLayout() {
   return (
     <React.Fragment>
