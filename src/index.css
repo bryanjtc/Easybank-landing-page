@@ -48,6 +48,10 @@ button:hover{
   opacity:0.3;
 }
 
+li{
+  list-style: none
+}
+
 .title {
   color: var(--Color_Title);
   font-size: var(--Title);

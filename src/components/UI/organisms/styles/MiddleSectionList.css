@@ -1,0 +1,13 @@
+.middle_section_content {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .middle_section_content {
+    text-align: center;
+    flex-direction: column;
+  }
+}
