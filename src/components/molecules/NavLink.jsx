@@ -1,14 +1,13 @@
 import React from "react";
-import "../../styles/navLink.css";
 import Text from "../atoms/Text.jsx";
 import { Link } from "react-router-dom";
 
 class NavLink extends React.Component {
   render() {
-    const { LinkSource, TextType, TextValue } = this.props;
+    const { LinkSource, TextValue } = this.props.link;
     return (
       <Link to={LinkSource}>
-        <Text TextType={TextType} TextValue={TextValue} />
+        <Text TextType={this.props.TextType} TextValue={TextValue} />
       </Link>
     );
   }

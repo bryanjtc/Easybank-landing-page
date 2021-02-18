@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../../components/organisms/NavBar.jsx";
+import Header from "../../components/organisms/Header.jsx";
 import Hero from "../../components/organisms/Hero.jsx";
 import MiddleSection from "../../components/organisms/MiddleSection.jsx";
 import LastSection from "../../components/organisms/LastSection.jsx";
 function DefaultLayout() {
   return (
     <React.Fragment>
-      <NavBar />
+      <Header />
       <Hero />
       <MiddleSection />
       <LastSection/>

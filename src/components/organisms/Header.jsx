@@ -1,8 +1,8 @@
 import React from "react";
-import "../../styles/navBar.css";
+import "../../styles/header.css";
 import HamburguerIcon from "../../images/icon-hamburger.svg";
 import CloseIcon from "../../images/icon-close.svg";
-import NavBarItems from "./NavBarItems.jsx";
+import NavBarItems from "./HeaderItems.jsx";
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -11,26 +11,26 @@ class NavBar extends React.Component {
   render() {
     if (this.state.opened) {
       return (
-        <section className="navbar_container">
+        <section className="header">
         <NavBarItems
           ImageSource={CloseIcon}
           ImageAlt="Close Icon"
           ImageClickState={() => this.setState({ opened: false })}
           TextType="subtitle"
-          MenuType="navbar_menu_open"
+          MenuType="header_menu_open"
         />
         </section>
       );
     }
 
     return (
-      <section className="navbar_container">
+      <section className="header">
       <NavBarItems
         ImageSource={HamburguerIcon}
         ImageAlt="Hamburguer Icon"
         ImageClickState={() => this.setState({ opened: true })}
         TextType="navlink"
-        MenuType="navbar_menu_close"
+        MenuType="header_menu_close"
       />
       </section>
     );

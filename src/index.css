@@ -18,7 +18,7 @@
   --Bold: 700;
   --Title: 3rem;
   --Subtitle: 1.5rem;
-  --NavLink: 0.9rem;
+  --NavLink: 0.95rem;
   --Color_Title: var(--Dark_Blue);
   --Color_P: var(--Grayish_Blue);
   --Author: 0.75rem;
@@ -45,34 +45,6 @@ a:hover {
   opacity: 0.3;
 }
 
-button:hover{
-  opacity:0.3;
-}
-
 li{
   list-style: none
-}
-
-.title {
-  color: var(--Color_Title);
-  font-size: var(--Title);
-}
-
-.subtitle {
-  font-size: var(--Subtitle);
-  color: var(--Color_Title);
-}
-
-.description {
-  color: var(--Color_P);
-}
-
-.author {
-  font-size: var(--Author);
-  color: var(--Color_P);
-}
-
-.navlink{
-  font-size: var(--NavLink);
-  color: var(--Color_P);
 }

@@ -1,10 +1,10 @@
-.navbar_container {
+.header {
   z-index: 3;
   background: var(--White);
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar_container {
+  .header {
     background-color: transparent;
     position: absolute;
     width: 100%;
