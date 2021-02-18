@@ -1,6 +1,6 @@
 import React from "react";
 import InviteButton from "../atoms/InviteButton.jsx";
-import Logo from "../../../images/logo.svg";
+import Logo from "../../images/logo.svg";
 import NavLink from "../molecules/NavLink.jsx";
 
 class NavBarItems extends React.Component {

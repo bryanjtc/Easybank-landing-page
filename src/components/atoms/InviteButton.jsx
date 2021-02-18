@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/InviteButton.css";
+import "../../styles/inviteButton.css";
 
 class InviteButton extends React.Component {
   btnClick() {

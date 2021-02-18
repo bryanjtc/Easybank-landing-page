@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles/NavLink.css";
-import Text from "../../atoms/Text.jsx";
+import "../../styles/navLink.css";
+import Text from "../atoms/Text.jsx";
 import { Link } from "react-router-dom";
 
 class NavLink extends React.Component {

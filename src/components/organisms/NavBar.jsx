@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/NavBar.css";
-import HamburguerIcon from "../../../images/icon-hamburger.svg";
-import CloseIcon from "../../../images/icon-close.svg";
+import "../../styles/navBar.css";
+import HamburguerIcon from "../../images/icon-hamburger.svg";
+import CloseIcon from "../../images/icon-close.svg";
 import NavBarItems from "./NavBarItems.jsx"
 class NavBar extends React.Component {
   constructor(props) {

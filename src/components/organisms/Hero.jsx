@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles/Hero.css";
-import InviteButton from "../../atoms/InviteButton.jsx";
-import IntroDesktop from "../../../images/bg-intro-desktop.svg";
-import ImageMockups from "../../../images/image-mockups.png";
-import Text from "../../atoms/Text.jsx";
+import "../../styles/hero.css";
+import InviteButton from "../atoms/InviteButton.jsx";
+import IntroDesktop from "../../images/bg-intro-desktop.svg";
+import ImageMockups from "../../images/image-mockups.png";
+import Text from "../atoms/Text.jsx";
 class Hero extends React.Component {
   render() {
     return (
