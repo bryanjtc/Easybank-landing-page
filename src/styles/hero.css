@@ -1,7 +1,6 @@
 .hero {
   padding-left: var(--space);
   background-color: var(--Very_Light_Gray);
-  box-sizing: border-box;
 }
 
 .hero_container {

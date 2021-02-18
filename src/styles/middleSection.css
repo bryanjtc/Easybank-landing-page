@@ -1,7 +1,6 @@
 .middle_section {
-  background-color: rgb(244, 245, 247);
+  background-color: var(--Light_Grayish_Blue);
   padding: var(--space);
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

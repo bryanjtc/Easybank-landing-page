@@ -1,0 +1,15 @@
+.last_section {
+  background-color: var(--Very_Light_Gray);
+  padding: var(--space);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-gap: 65px;
+  gap: 65px;
+}
+
+@media (max-width: 900px) {
+  .last_section {
+    text-align: center;
+  }
+}

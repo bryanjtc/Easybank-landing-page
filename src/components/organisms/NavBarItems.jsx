@@ -2,6 +2,7 @@ import React from "react";
 import InviteButton from "../atoms/InviteButton.jsx";
 import Logo from "../../images/logo.svg";
 import NavLink from "../molecules/NavLink.jsx";
+import "../../styles/navBarItems.css";
 
 class NavBarItems extends React.Component {
   render() {
@@ -13,8 +14,7 @@ class NavBarItems extends React.Component {
       MenuType,
     } = this.props;
     return (
-      <section className="navbar_container">
-        <div className="navbar">
+        <div className="navbar_items">
           <div className="navbar_logo_container">
             <img src={Logo} className="navbar_logo" alt="Logo" />
             <img
@@ -37,7 +37,6 @@ class NavBarItems extends React.Component {
             <InviteButton />
           </div>
         </div>
-      </section>
     );
   }
 }

@@ -11,6 +11,7 @@ class NavBar extends React.Component {
   render() {
     if (this.state.opened) {
       return (
+        <section className="navbar_container">
         <NavBarItems
           ImageSource={CloseIcon}
           ImageAlt="Close Icon"
@@ -18,10 +19,12 @@ class NavBar extends React.Component {
           TextType="subtitle"
           MenuType="navbar_menu_open"
         />
+        </section>
       );
     }
 
     return (
+      <section className="navbar_container">
       <NavBarItems
         ImageSource={HamburguerIcon}
         ImageAlt="Hamburguer Icon"
@@ -29,6 +32,7 @@ class NavBar extends React.Component {
         TextType="navlink"
         MenuType="navbar_menu_close"
       />
+      </section>
     );
   }
 }
