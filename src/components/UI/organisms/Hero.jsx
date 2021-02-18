@@ -10,10 +10,10 @@ class Hero extends React.Component {
       <section className="hero">
         <div className="hero_container">
           <div className="hero_left_column">
-            <Text type="title" textValue="Next generation digital banking" />
+            <Text TextType="title" TextValue="Next generation digital banking" />
             <Text
-              type="description"
-              textValue="Take your financial life online. Your Easybank account will be a
+              TextType="description"
+              TextValue="Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more."
             />

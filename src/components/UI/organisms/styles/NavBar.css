@@ -24,11 +24,11 @@
   margin: 0px 20px;
 }
 
-
 @media only screen and (max-width: 900px) {
   .navbar_container {
     background-color: transparent;
     position: absolute;
+    width: 100%;
   }
 
   .navbar {
@@ -49,10 +49,6 @@
     display: initial;
   }
 
-  .navbar_menu_container {
-    display: none;
-  }
-
   .navbar_menu {
     flex-direction: column;
     border-radius: 10px;
@@ -68,4 +64,14 @@
   .navbar_invite_button {
     display: none;
   }
+
+  #navbar_menu_open {
+    display: flex;
+    width: 100%;
+  }
+
+  #navbar_menu_close {
+    display: none;
+  }
+
 }

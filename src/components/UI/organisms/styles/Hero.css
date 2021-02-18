@@ -2,7 +2,6 @@
   padding-left: var(--space);
   background-color: var(--Very_Light_Gray);
   box-sizing: border-box;
-  height: 605px;
 }
 
 .hero_container {
@@ -11,16 +10,15 @@
 }
 
 .hero_left_column {
-  width: 40vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 450px;
+  justify-content: center;
+  height: 500px;
   align-items: flex-start;
+  gap: 30px;
 }
 
 .hero_right_column {
-  width: 60vw;
   height: 500px;
 }
 
@@ -30,7 +28,7 @@
   width: 100%;
   position: sticky;
   height: 750px;
-  object-position: 5vw -15vh;
+  object-position: 6vw -28vh;
 }
 
 .intro_mockup {
@@ -40,14 +38,12 @@
   bottom: 170%;
   height: 750px;
   width: 100%;
-  object-position: 17.5vw -12.5vh;
+  object-position: 22vw -14vh;
 }
 
 @media (max-width: 900px) {
   .hero {
     padding: 0px;
-    width: 100%;
-    height: 950px;
   }
 
   .hero_container {
@@ -55,7 +51,7 @@
   }
 
   .hero_left_column {
-    padding: 25px;
+    padding: var(--space);
     text-align: center;
     width: 100%;
     box-sizing: border-box;
@@ -80,5 +76,4 @@
     object-position: 25vw 0vh;
     object-fit: cover;
   }
-
 }

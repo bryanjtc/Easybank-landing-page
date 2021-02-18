@@ -36,8 +36,16 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+}
+
 a:hover {
   opacity: 0.3;
+}
+
+button:hover{
+  opacity:0.3;
 }
 
 .title {
@@ -60,5 +68,6 @@ a:hover {
 }
 
 .navlink{
-  font-size: var(--Navlink);
+  font-size: var(--NavLink);
+  color: var(--Color_P);
 }

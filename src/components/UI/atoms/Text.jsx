@@ -3,7 +3,8 @@ import "../../../index.css";
 
 class Text extends React.Component {
   render() {
-    return <p className={this.props.type}>{this.props.textValue}</p>;
+    const { TextType, TextValue } = this.props;
+    return <p className={TextType}>{TextValue}</p>;
   }
 }
 
