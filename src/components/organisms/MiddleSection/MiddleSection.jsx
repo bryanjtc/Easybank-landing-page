@@ -1,10 +1,10 @@
 import React from "react";
-import IconOnline from "../../images/icon-online.svg";
-import IconBudgeting from "../../images/icon-budgeting.svg";
-import IconOnboarding from "../../images/icon-onboarding.svg";
-import IconApi from "../../images/icon-api.svg";
-import "../../styles/middleSection.css";
-import Text from "../atoms/Text.jsx";
+import IconOnline from "../../../images/icon-online.svg";
+import IconBudgeting from "../../../images/icon-budgeting.svg";
+import IconOnboarding from "../../../images/icon-onboarding.svg";
+import IconApi from "../../../images/icon-api.svg";
+import "../../../styles/middleSection/middleSection.css";
+import Text from "../../atoms/Text.jsx";
 import MiddleSectionList from "./MiddleSectionList.jsx";
 
 class MiddleSection extends React.Component {

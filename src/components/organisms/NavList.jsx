@@ -1,6 +1,5 @@
 import React from "react";
 import NavLink from "../molecules/NavLink.jsx";
-import "../../styles/middleSectionList.css";
 
 class NavList extends React.Component {
   render() {

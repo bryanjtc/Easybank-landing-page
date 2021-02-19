@@ -1,7 +1,7 @@
 import React from "react";
 import Text from "../atoms/Text.jsx";
 import { Link } from "react-router-dom";
-import "../../styles/lastSectionItem.css";
+import "../../styles/lastSection/lastSectionItem.css";
 
 class MiddleSection extends React.Component {
   render() {

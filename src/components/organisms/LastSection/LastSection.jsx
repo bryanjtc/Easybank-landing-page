@@ -1,10 +1,10 @@
 import React from "react";
-import "../../styles/lastSection.css";
-import ImageCurrency from "../../images/image-currency.jpg";
-import ImageRestaurant from "../../images/image-restaurant.jpg";
-import ImagePlane from "../../images/image-plane.jpg";
-import ImageConfetti from "../../images/image-confetti.jpg";
-import Text from "../atoms/Text.jsx";
+import "../../../styles/lastSection/lastSection.css";
+import ImageCurrency from "../../../images/image-currency.jpg";
+import ImageRestaurant from "../../../images/image-restaurant.jpg";
+import ImagePlane from "../../../images/image-plane.jpg";
+import ImageConfetti from "../../../images/image-confetti.jpg";
+import Text from "../../atoms/Text.jsx";
 import LastSectionList from "./LastSectionList.jsx";
 
 class LastSection extends React.Component {

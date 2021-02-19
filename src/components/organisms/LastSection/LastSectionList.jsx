@@ -1,6 +1,6 @@
 import React from "react";
-import LastSectionItem from "../molecules/LastSectionItem.jsx";
-import "../../styles/lastSectionList.css";
+import LastSectionItem from "../../molecules/LastSectionItem.jsx";
+import "../../../styles/lastSection/lastSectionList.css";
 
 class LastSectionList extends React.Component {
   render() {

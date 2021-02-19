@@ -1,0 +1,10 @@
+.social_medias {
+  display: flex;
+  gap: 12.5px;
+}
+
+@media (max-width: 900px) {
+  .social_medias {
+    gap: 25px;
+  }
+}

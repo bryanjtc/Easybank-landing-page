@@ -3,7 +3,7 @@
   font-size: var(--Title);
 }
 
-.navlink {
+.navlink_header {
   font-size: var(--NavLink);
   color: var(--Color_P);
 }
@@ -20,4 +20,9 @@
 .author {
   font-size: var(--Author);
   color: var(--Color_P);
+}
+
+.navlink_footer{
+  font-size: var(--NavLink);
+  color: var(--White);
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/header.css";
-import HamburguerIcon from "../../images/icon-hamburger.svg";
-import CloseIcon from "../../images/icon-close.svg";
+import "../../../styles/header/header.css";
+import HamburguerIcon from "../../../images/icon-hamburger.svg";
+import CloseIcon from "../../../images/icon-close.svg";
 import NavBarItems from "./HeaderItems.jsx";
 class NavBar extends React.Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class NavBar extends React.Component {
         ImageSource={HamburguerIcon}
         ImageAlt="Hamburguer Icon"
         ImageClickState={() => this.setState({ opened: true })}
-        TextType="navlink"
+        TextType="navlink_header"
         MenuType="header_menu_close"
       />
       </section>

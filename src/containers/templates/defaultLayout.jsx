@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "../../components/organisms/Header.jsx";
+import Header from "../../components/organisms/Header/Header.jsx";
 import Hero from "../../components/organisms/Hero.jsx";
-import MiddleSection from "../../components/organisms/MiddleSection.jsx";
-import LastSection from "../../components/organisms/LastSection.jsx";
+import MiddleSection from "../../components/organisms/MiddleSection/MiddleSection.jsx";
+import LastSection from "../../components/organisms/LastSection/LastSection.jsx";
+import Footer from "../../components/organisms/Footer.jsx";
 function DefaultLayout() {
   return (
     <React.Fragment>
@@ -10,6 +11,7 @@ function DefaultLayout() {
       <Hero />
       <MiddleSection />
       <LastSection/>
+      <Footer/>
     </React.Fragment>
   );
 }

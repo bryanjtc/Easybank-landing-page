@@ -1,6 +1,6 @@
 import React from "react";
-import MiddleSectionItem from "../molecules/MiddleSectionItem.jsx";
-import "../../styles/middleSectionList.css";
+import MiddleSectionItem from "../../molecules/MiddleSectionItem.jsx";
+import "../../../styles/middleSection/middleSectionList.css";
 
 class MiddleSectionItems extends React.Component {
   render() {
@@ -17,5 +17,4 @@ class MiddleSectionItems extends React.Component {
     );
   }
 }
-
 export default MiddleSectionItems;

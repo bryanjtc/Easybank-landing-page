@@ -1,8 +1,8 @@
 import React from "react";
-import InviteButton from "../atoms/InviteButton.jsx";
-import Logo from "../../images/logo.svg";
-import NavList from "./NavList.jsx";
-import "../../styles/headerItems.css";
+import InviteButton from "../../atoms/InviteButton.jsx";
+import Logo from "../../../images/logo.svg";
+import NavList from "../NavList.jsx";
+import "../../../styles/header/headerItems.css";
 
 class headerItems extends React.Component {
   NavLinks = {
