@@ -14,7 +14,7 @@ class MiddleSection extends React.Component {
       TextValueDescription,
     } = this.props.item;
     return (
-      <section className="last_section_article">
+      <div className="last_section_article">
         <Link to={LinkSource}>
           <img
             src={ImageSource}
@@ -22,14 +22,14 @@ class MiddleSection extends React.Component {
             className="last_section_image"
           />
         </Link>
-        <section className="last_section_article_info">
+        <div className="last_section_article_info">
           <Text TextType="author" TextValue={TextValueAuthor} />
           <Link to={LinkSource}>
             <Text TextType="subtitle" TextValue={TextValueTitle} />
           </Link>
           <Text TextType="description" TextValue={TextValueDescription} />
-        </section>
-      </section>
+        </div>
+      </div>
     );
   }
 }

@@ -50,7 +50,7 @@ class MiddleSection extends React.Component {
   };
   render() {
     return (
-      <section className="middle_section">
+      <div className="middle_section">
         <div className="middle_section_header">
           <Text TextType="title" TextValue="Why choose Easybank?" />
           <Text
@@ -60,7 +60,7 @@ class MiddleSection extends React.Component {
           />
         </div>
         <MiddleSectionList MiddleSectionItems={this.MiddleSectionItems.data} />
-      </section>
+      </div>
     );
   }
 }

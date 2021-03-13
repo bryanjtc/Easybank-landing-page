@@ -5,7 +5,7 @@ import "../../styles/socialMediaList.css";
 class NavList extends React.Component {
   render() {
     return (
-      <div className="social_medias">
+      <ul className="social_medias">
         {this.props.SocialMediaLinks.map((link) => {
           return (
             <li key={link.ID}>
@@ -13,7 +13,7 @@ class NavList extends React.Component {
             </li>
           );
         })}
-      </div>
+      </ul>
     );
   }
 }

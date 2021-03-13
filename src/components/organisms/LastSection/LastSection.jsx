@@ -54,10 +54,10 @@ class LastSection extends React.Component {
   };
   render() {
     return (
-      <section className="last_section">
+      <div className="last_section">
         <Text TextType="title" TextValue="Lastest Articles" />
         <LastSectionList LastSectionItems={this.LastSectionItems.data} />
-      </section>
+      </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import NavLink from "../molecules/NavLink.jsx";
 class NavList extends React.Component {
   render() {
     return (
-      <div className={this.props.MenuType}>
+      <ul className={this.props.MenuType}>
         {this.props.NavLinks.map((link) => {
           return (
             <li key={link.ID}>
@@ -12,7 +12,7 @@ class NavList extends React.Component {
             </li>
           );
         })}
-      </div>
+      </ul>
     );
   }
 }

@@ -13,13 +13,13 @@ class MiddleSection extends React.Component {
       TextValueDescription,
     } = this.props.item;
     return (
-      <section className="middle_section_content_item">
+      <div className="middle_section_content_item">
         <Link to={LinkSource}>
           <img src={ImageSource} alt={ImageAlt} />
         </Link>
         <Text TextType="subtitle" TextValue={TextValueTitle} />
         <Text TextType="description" TextValue={TextValueDescription} />
-      </section>
+      </div>
     );
   }
 }

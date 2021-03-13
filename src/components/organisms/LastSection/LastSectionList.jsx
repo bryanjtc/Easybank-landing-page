@@ -5,7 +5,7 @@ import "../../../styles/lastSection/lastSectionList.css";
 class LastSectionList extends React.Component {
   render() {
     return (
-      <div className="last_section_articles">
+      <ul className="last_section_articles">
         {this.props.LastSectionItems.map((item) => {
           return (
             <li key={item.ID}>
@@ -13,7 +13,7 @@ class LastSectionList extends React.Component {
             </li>
           );
         })}
-      </div>
+      </ul>
     );
   }
 }

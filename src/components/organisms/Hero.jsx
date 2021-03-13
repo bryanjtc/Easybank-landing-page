@@ -7,7 +7,7 @@ import Text from "../atoms/Text.jsx";
 class Hero extends React.Component {
   render() {
     return (
-      <section className="hero">
+      <div className="hero">
         <div className="hero_container">
           <div className="hero_left_column">
             <Text
@@ -31,7 +31,7 @@ class Hero extends React.Component {
             <img src={ImageMockups} alt="Mockups" className="intro_mockup" />
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 }

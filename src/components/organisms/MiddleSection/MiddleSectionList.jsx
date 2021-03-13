@@ -5,7 +5,7 @@ import "../../../styles/middleSection/middleSectionList.css";
 class MiddleSectionItems extends React.Component {
   render() {
     return (
-      <div className="middle_section_content">
+      <ul className="middle_section_content">
         {this.props.MiddleSectionItems.map((item) => {
           return (
             <li key={item.ID}>
@@ -13,7 +13,7 @@ class MiddleSectionItems extends React.Component {
             </li>
           );
         })}
-      </div>
+      </ul>
     );
   }
 }
