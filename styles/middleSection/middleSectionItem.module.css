@@ -1,0 +1,17 @@
+.middle_section_content_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.middle_section_content_item_image {
+  object-fit: contain;
+  object-position: left;
+}
+
+@media (max-width: 900px) {
+  .middle_section_content_item_image {
+    object-position: center;
+  }
+}

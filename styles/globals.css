@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  font-weight: var(--Regular);
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+li{
+  list-style: none
+}
+
+ul{
+  padding: 0px;
+}
+
+* {
+  margin: 0px;
+}
+
+:root {
+  --space: 10vw;
+  --Dark_Blue: hsl(233, 26%, 24%);
+  --Lime_Green: hsl(136, 65%, 51%);
+  --Bright_Cyan: hsl(192, 70%, 51%);
+  --Grayish_Blue: #575766;
+  --Light_Grayish_Blue: hsl(220, 16%, 96%);
+  --Very_Light_Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Light: 300;
+  --Regular: 400;
+  --Bold: 700;
+  --Title: 3rem;
+  --Subtitle: 1.5rem;
+  --NavLink: 0.95rem;
+  --Color_Title: var(--Dark_Blue);
+  --Color_P: var(--Grayish_Blue);
+  --Author: 0.75rem;
+  --Copyright: var(--Light_Grayish_Blue);
+}

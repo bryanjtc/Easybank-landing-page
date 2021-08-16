@@ -1,0 +1,67 @@
+.hero {
+  padding-left: var(--space);
+  background-color: var(--Very_Light_Gray);
+}
+
+.hero_container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero_left_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.hero_right_column {
+  height: 500px;
+  background-image: url(../public/images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position-y: center;
+  background-position-x: left;
+  width: 100%;
+}
+
+.intro_mockup {
+  object-fit: contain;
+  object-position: 8vw -16vh;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 0px;
+  }
+
+  .hero_container {
+    flex-direction: column-reverse;
+  }
+
+  .hero_left_column {
+    padding: var(--space);
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .hero_right_column {
+    width: 100%;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+
+  .intro_mockup {
+    object-position: 0vw -42vh;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .intro_mockup {
+    object-position: 50% 100%;
+  }
+}
