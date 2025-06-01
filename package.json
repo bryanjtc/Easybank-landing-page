@@ -15,7 +15,7 @@
     "sharp": "0.34.2"
   },
   "devDependencies": {
-    "eslint": "9.25.1",
+    "eslint": "9.28.0",
     "eslint-config-next": "15.2.4"
   }
 }
