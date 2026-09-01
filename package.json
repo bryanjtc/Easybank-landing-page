@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.5.22",
+    "next": "15.5.25",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "sharp": "0.35.3"
+    "sharp": "0.35.4"
   },
   "devDependencies": {
     "eslint": "9.39.5",
-    "eslint-config-next": "15.5.22"
+    "eslint-config-next": "15.5.25"
   }
 }
