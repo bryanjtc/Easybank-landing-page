@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "next": "15.5.25",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "sharp": "0.35.4"
   },
   "devDependencies": {
